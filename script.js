@@ -11,8 +11,8 @@ function generatePassword() {
     }
   
     // prompt to determine character values (uppercase, lowercase, numeric, special characters)
-    var includeUppercase = confirm("Do you want to include lowercase characters? (Ok for Yes, Cancel for No");
-    var includeLowercase = confirm("Do you want to include upercase characters? (Ok for Yes, Cancel for No");
+    var includeUppercase = confirm("Do you want to include uppercase characters? (Ok for Yes, Cancel for No");
+    var includeLowercase = confirm("Do you want to include lowercase characters? (Ok for Yes, Cancel for No");
     var includeNumeric = confirm("Do you want to include numeric characters? (Ok for Yes, Cancel for No");
     var includeSpecChar = confirm("Do you want to include special characters? (Ok for Yes, Cancel for No");
   
@@ -79,6 +79,6 @@ function generatePassword() {
   
   }
   
-  
+
   // Add event listener to generate button
   generateBtn.addEventListener("click", writePassword);
