@@ -19,8 +19,8 @@ function generatePassword() {
     // while loop to check at least one character value is selected
     while(!(includeUppercase || includeLowercase || includeNumeric || includeSpecChar)) {
       alert("Please select a at least one character value")
-      includeUppercase = confirm("Do you want to include lowercase characters? (Ok for Yes, Cancel for No");
-      includeLowercase = confirm("Do you want to include upercase characters? (Ok for Yes, Cancel for No");
+      includeUppercase = confirm("Do you want to include uppercase characters? (Ok for Yes, Cancel for No");
+      includeLowercase = confirm("Do you want to include lowercase characters? (Ok for Yes, Cancel for No");
       includeNumeric = confirm("Do you want to include numeric characters? (Ok for Yes, Cancel for No");
       includeSpecChar = confirm("Do you want to include special characters? (Ok for Yes, Cancel for No");
     }
