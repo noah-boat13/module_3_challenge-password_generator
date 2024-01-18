@@ -30,6 +30,8 @@ function generatePassword() {
   
     // display generated password to page
     alert("Your randomly generated password is " + password);
+
+    return password;
   
   }
   
@@ -76,6 +78,7 @@ function generatePassword() {
     passwordText.value = password;
   
   }
+  
   
   // Add event listener to generate button
   generateBtn.addEventListener("click", writePassword);
